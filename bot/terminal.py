@@ -4,7 +4,7 @@ from time import strftime
 
 x = random.randint(5, 10)
 
-
+os.system("git remote add https://github.com/SahanChan/keepingStreakAlive.git")
 for i in range(0, x):
 
     my_file = open("DateAndTime_Commit.dat", 'a')
