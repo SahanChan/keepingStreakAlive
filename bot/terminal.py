@@ -2,7 +2,7 @@ import os
 import random
 from time import strftime
 
-x = random.randint(5, 10)
+x = random.randint(1, 6)
 
 os.system("git remote add origin https://github.com/SahanChan/keepingStreakAlive.git")
 for i in range(0, x):
